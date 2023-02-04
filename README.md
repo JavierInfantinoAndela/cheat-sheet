@@ -413,3 +413,88 @@ This would delete the `mypod` pod in the `mynamespace` namespace, and the cluste
 ## Conclusion
 
 In conclusion, my experience working with kubectl and Kubernetes has been focused on monitoring, debugging, and restarting pods. While I have not set up the cluster myself, I have gained a good understanding of how to use kubectl to manage and monitor a Kubernetes cluster.
+
+
+
+
+
+-----
+-----
+
+# Behavioural questions
+
+ **Question: Tell me about a time when you were faced with a challenging situation. How did you solve it? Talk about a query taking too long because of bad sort keys**
+
+**Answer**: A challenging situation I faced as a data engineer was when I was working on a customer success company, and I encountered a query that was taking too long to run. This was due to the fact that the sort keys were not properly configured for the data.
+
+To solve this issue, I followed these steps:
+
+1. I analyzed the data and identified which columns were frequently used in the queries.
+2. I set the sort key for the frequently used columns to optimize the query performance.
+3. I tested the query again to see if the performance improved.
+
+By doing this, the query performance was significantly improved, and the customer was able to receive their data in a timely manner. This was a great solution as it not only solved the immediate problem, but it also ensured that future queries would run more efficiently as well.
+
+
+**Example of a mistake made at work:**
+
+**Question:** Give me an example of a time you made a mistake at work. 
+
+**Answer:** One instance that comes to mind was when I was working on a regular ETL script. I was asked by the business team to manually insert data into a Redshift database as a backfill. I thought it would be a quick and simple task, but I soon realized that it was a dangerous practice. I had made a mistake in manually entering the data and it took me a while to find and fix it.
+
+After finding the mistake, I brought it to the attention of my boss and proposed a solution to avoid this kind of situation in the future. I suggested that we commit all DDL statements into a YAML file, which could be reviewed and approved in a pull request. After approval, the code could be run with Jenkins to prevent dangerous manual insertion of data into the database.
+
+Q: Tell me about a time when you went above and beyond your duties for a job or task.
+
+A: Sure, I'd be happy to. When I was working as a data engineer, I was faced with a legacy schema that was becoming increasingly difficult to work with. The schema was flat and lacked proper relationships between tables, which made it challenging to run efficient queries and extract insights from the data.
+
+In order to meet the business needs, I proposed to my boss to refactor the schema into a dimensional model. The dimensional model would have a star schema structure, with a central fact table and dimension tables that captured different aspects of the data, such as time, location, and product.
+
+The key benefits of the dimensional model were that it would make it easier to understand the relationships between the data, would allow us to run more efficient queries, and would provide a foundation for better data visualization. After reviewing my proposal, my boss approved the refactor and I was able to successfully implement the new schema. The result was a more streamlined and efficient way of working with our data, which improved our ability to deliver insights to the business.
+
+## Have you ever corrected one of your superiors when they were wrong? How did you approach the situation?
+
+One time, my superior suggested to include some dimensions as fields on a fact table in a data warehousing project. However, I knew this approach would not be optimal for querying the data. I approached the situation by first acknowledging my superior's idea and then presenting the drawbacks of this approach. I explained that including dimensions as fields on a fact table would result in data redundancy and would make it difficult to update or delete data.
+
+I then presented a alternative approach of having a separate dimension table that could be joined with the fact table, which would ensure the data remains normalized and would make querying and updating data much easier. I also provided examples and data to support my argument and showed how the dimensional model would lead to better performance and scalability in the long run.
+
+My superior was open to my suggestion and ultimately agreed with my proposal. This change resulted in a more efficient and scalable data warehousing solution that was easier to maintain.
+
+**Question:** Sometimes employers put too much on their employees’ plates. Was there a time when you were overwhelmed with work? How did you handle the situation?
+
+**Answer:**
+
+1. Prioritizing tasks: Assess the urgency and importance of the tasks at hand, and prioritize them accordingly.
+
+2. Asking for help: If necessary, reach out to colleagues or superiors for assistance in completing the work.
+
+3. Time management: Utilize time management techniques such as setting daily goals, breaking down tasks into smaller parts, and focusing on one task at a time.
+
+4. Taking breaks: Taking short breaks throughout the day can help to clear the mind and increase focus and productivity.
+
+5. Effective communication: Clear and open communication with employers about workload expectations and the need for additional support can help to manage workloads and prevent burnout.
+
+In the end, it's important to maintain a healthy work-life balance and take care of oneself, both physically and mentally.
+
+
+**Question**: How do you deal with coworkers that don’t cooperate or can’t contribute enough?
+
+**Answer**:
+
+When faced with coworkers who are not cooperative or cannot contribute enough, I try to approach the situation with empathy and open communication. I believe that it's important to understand their perspective and any challenges they may be facing, and to find ways to work together to achieve our common goals.
+
+First, I try to have a one-on-one conversation with the coworker to express my concerns and to understand their point of view. I then collaborate with them to find solutions to any problems and to set clear expectations for their role in our team.
+
+If the issue persists, I bring it to the attention of our manager and work with them to find a solution. I believe in finding a solution that benefits both the team and the individual in question.
+
+Ultimately, I believe in maintaining a positive and productive work environment and fostering strong relationships with my coworkers. By working together and finding ways to support one another, we can overcome any challenges and achieve our goals as a team.
+
+
+## Is there a situation you think you could’ve handled better or differently?
+
+Yes, there was a time when I was working on a data integration project. One of the key stakeholders was not cooperating and not providing the necessary information on time. This caused a delay in the project timeline and put additional pressure on my team.
+
+Looking back, I realized that I could have communicated the importance of timely responses more clearly to the stakeholder and established a follow-up plan for any outstanding information. Additionally, I could have also involved a project manager earlier to help resolve the issue.
+
+In the future, I would handle similar situations by being proactive in my communication and escalation to ensure that everyone is aligned and working towards the common goal.
+
