@@ -438,7 +438,7 @@ By doing this, the query performance was significantly improved, and the custome
 
 **Example of a mistake made at work:**
 
-**Question:** Give me an example of a time you made a mistake at work. 
+## **Question:** Give me an example of a time you made a mistake at work. 
 
 **Answer:** One instance that comes to mind was when I was working on a regular ETL script. I was asked by the business team to manually insert data into a Redshift database as a backfill. I thought it would be a quick and simple task, but I soon realized that it was a dangerous practice. I had made a mistake in manually entering the data and it took me a while to find and fix it.
 
@@ -460,7 +460,7 @@ I then presented a alternative approach of having a separate dimension table tha
 
 My superior was open to my suggestion and ultimately agreed with my proposal. This change resulted in a more efficient and scalable data warehousing solution that was easier to maintain.
 
-**Question:** Sometimes employers put too much on their employees’ plates. Was there a time when you were overwhelmed with work? How did you handle the situation?
+## **Question:** Sometimes employers put too much on their employees’ plates. Was there a time when you were overwhelmed with work? How did you handle the situation?
 
 **Answer:**
 
@@ -477,7 +477,7 @@ My superior was open to my suggestion and ultimately agreed with my proposal. Th
 In the end, it's important to maintain a healthy work-life balance and take care of oneself, both physically and mentally.
 
 
-**Question**: How do you deal with coworkers that don’t cooperate or can’t contribute enough?
+## **Question**: How do you deal with coworkers that don’t cooperate or can’t contribute enough?
 
 **Answer**:
 
