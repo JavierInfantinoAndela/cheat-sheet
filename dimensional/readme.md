@@ -1,21 +1,28 @@
 
 # Dimensional Model
 
+## Fact Table: Sales (only contains ids and facts)
 
-### Fact Table: Sales (only contains ids and facts)
+| Date       | Product_id | Client_id | Quantity | Price | Total Sales |
+|------------|------------|-----------|----------|-------|------------|
+| 1/1/2022   | 1          | 1         | 20       | 10    | 200        |
+| 1/1/2022   | 2          | 1         | 10       | 50    | 500        |
+| 1/2/2022   | 1          | 2         | 15       | 10    | 150        |
 
-| Date | Product_id | Quantity | Price | Total Sales |
-|------|---------|----------|-------|------------|
-| 1/1/2022 | T-shirt | 20 | 10 | 200 |
-| 1/1/2022 | Jeans | 10 | 50 | 500 |
-| 1/2/2022 | T-shirt | 15 | 10 | 150 |
+## Dimension Table: Product (contains details for the ids used in the fact)
 
-### Dimension Table: Product (constains deatails for the ids used in the fact)
+| Product_id | Product_name | Category  | Color | Size |
+|------------|--------------|-----------|-------|------|
+| 1          | T-shirt      | Clothing  | Red   | M    |
+| 2          | Jeans        | Clothing  | Blue  | 32   |
 
-| Product_id | Category | Color | Size |
-|---------|----------|-------|------|
-| T-shirt | Clothing | Red | M |
-| Jeans | Clothing | Blue | 32 |
+## Dimension Table: Client (contains details for the ids used in the fact)
+
+| Client_id | Client_name  | Location |
+|-----------|--------------|----------|
+| 1         | John Doe     | New York |
+| 2         | Jane Doe     | London   |
+
 
 The Sales fact table contains the sales data for a store, including the date of the sale, the product sold, the quantity sold, and the price. The Product dimension table provides additional details about each product, such as its category, color, and size. This allows for more in-depth analysis of the sales data.
 
