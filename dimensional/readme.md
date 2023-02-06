@@ -1,7 +1,6 @@
 
-## Dimensional Model
+# Dimensional Model
 
-The program uses a dimensional model to store sales data. The data is organized into two tables:
 
 ### Fact Table: Sales (only contains ids and facts)
 
