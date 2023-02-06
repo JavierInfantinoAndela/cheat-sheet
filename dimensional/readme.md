@@ -49,8 +49,7 @@ The steps involved in creating a dimensional model are:
 - Creating the fact table
 - Creating the dimension tables
 - Loading the data into the tables
-- Designing the cube
-- Querying and analyzing the data
+
 
 3. Can you describe the difference between a fact table and a dimension table?
 
