@@ -165,3 +165,32 @@ Unit testing is essential for PySpark batch jobs, just as it is for any other so
 7. Can you describe the process for continuous integration and delivery (CI/CD) for data engineering projects at Teladoc Health?
 9. Can you tell me about a particularly challenging problem the team has faced, and how they approached it and solved it?
 
+
+# Technical Questions **PARA VOS**
+
+1. Can you explain your experience with SparkSQL and how you have used it in past projects? 
+Answer: Yes, I have extensive experience working with SparkSQL in my current role. I write SparkSQL jobs on a regular basis to process data from Redshift to Redshift and schedule them using Apache Airflow. In these projects, I am responsible for designing and implementing efficient and reliable ETL pipelines to meet business needs.
+
+2. How it your approach on testing? 
+Answer: I make sure that my code works properly by writing unit tests. These tests check individual parts of the code to make sure they are functioning correctly. At my previous company, we also did integration tests which check how different parts of the code work together. This helps us ensure that the entire system works as expected.
+
+3. Can you walk us through the process of designing a data pipeline using SparkSQL, Airflow, and Python?
+Answer: Sure, I can walk you through the high-level process. First, I gather the requirements from the business stakeholders to understand the data sources and the desired outcome. Next, I design the pipeline to extract data from the sources, transform it using SparkSQL, and load it into a data warehouse. Then, I use Airflow to schedule and manage the pipeline, and Python for scripting and automation. 
+
+## Other Questions
+
+1. Can you tell us about a time when you had to troubleshoot a production issue with an ETL pipeline?
+Answer: Yes, there was a time when I had to troubleshoot a production issue with an ETL pipeline that was failing to load data into the data warehouse. I worked to identify the root cause of the issue and found that there was a bug in the data transformation logic. I fixed the bug, deploy the code and re-ran the pipeline, which resolved the issue and restored data loading to the data warehouse.
+
+2. How do you stay current with the latest technologies and trends in data engineering?
+Answer: I stay current with the latest technologies and trends in data engineering by continuously learning and exploring new technologies. I attend conferences and workshops, read industry blogs and articles, and participate in online forums and communities. I also collaborate with my peers in the industry and exchange ideas and best practices. This helps me stay up-to-date with the latest developments and apply them to my work.
+
+3. Can you tell us about a time when you had to work with stakeholders to resolve a data-related issue?
+Answer: Yes, there was a time when a stakeholder noticed that a wrong date parsing was done in the ETL pipeline. They brought this to my attention, and I worked with them to understand the issue. I found that the date parsing logic was incorrect, which was causing incorrect data to be generated in the pipeline. I fixed the logic, re-ran the pipeline, and confirmed with the stakeholders that the issue was resolved and the data was now being generated correctly. This experience reinforced the importance of regular monitoring and data validation checks to ensure the accuracy and quality of the data in the pipeline.
+
+4. How do you handle changes in data requirements or sources during the course of a project?
+Answer: Changes in data requirements or sources are a common occurrence in data engineering projects. I handle these changes by being proactive and flexible in my approach. I communicate with the stakeholders to understand the changes and assess the impact on the pipeline. I then make the necessary modifications to the pipeline to accommodate the changes and ensure that the pipeline continues to meet the needs of the business.
+
+5. Can you give an example of a complex data transformation that you have implemented in a previous project?
+
+Answer: I once worked on a project where I needed to combine data from several sources (such as salesforce, bamboohr, and others). One of the biggest obstacles was that the same entity was represented by different IDs in each source. To solve this problem, I utilized the email address as the identifier, since it was the only common identifier across all sources. Using SparkSQL, I wrote custom scripts to create a unique identifier for each entity by using the email address as the primary key. I then mapped the source IDs to this unique identifier to guarantee correct merging of data for the same entity. This resulted in a unified view of the data and improved the accuracy of our data analysis.
