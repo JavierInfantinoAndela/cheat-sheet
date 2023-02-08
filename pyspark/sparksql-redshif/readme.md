@@ -157,12 +157,14 @@ Unit testing is essential for PySpark batch jobs, just as it is for any other so
 
 # Questions for the Data Engineering Interviewer :
 
+1. Can you describe the technology stack that the Data Engineering team uses and how it contributes to the success of Teladoc Health's platform?
 2. What are the primary goals and objectives of the team?
 3. Can you provide some examples of projects that the team has been working on, and how they've utilized your tech stack in those projects?
 4. Can you describe the work culture at Teladoc Health?
 5. How does the team approach data quality their pipeline and database designs?
 6. How does the team collaborate with other stakeholders, such as data analysts and business leaders, to ensure ?
 7. Can you describe the process for continuous integration and delivery (CI/CD) for data engineering projects at Teladoc Health?
+8. Can you give me a rundown of what the Data Engineer role at Teladoc Health is about? Does this role include any work with data infrastructure or devops, or is it more focused on other things?
 9. Can you tell me about a particularly challenging problem the team has faced, and how they approached it and solved it?
 
 
