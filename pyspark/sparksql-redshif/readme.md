@@ -127,12 +127,31 @@ from pyspark.sql.types import StructType, StructField, IntegerType
 from pyspark.testing import SparkSession
 
 def test_process_data():
+# Commenting the code
+
+from pyspark.sql.types import StructType, StructField, IntegerType
+from pyspark.testing import SparkSession
+
+# Defining the unit test function for the PySpark process_data() function
+def test_process_data():
+    # Creating a Spark session for the unit test
     spark = SparkSession.builder.appName("PySparkUnitTest").getOrCreate()
+    
+    # Defining the sample data for the test
     data = [(1,), (2,), (3,), (11,), (12,), (13,)]
+    
+    # Defining the schema for the sample data
     schema = StructType([StructField("column_name", IntegerType(), True)])
+    
+    # Creating a DataFrame from the sample data and schema
     df = spark.createDataFrame(data, schema)
+    
+    # Invoking the process_data() function with the Spark session and DataFrame
     result = process_data(spark, df)
+    
+    # Asserting that the count of rows returned by the process_data() function is 3
     assert result.count() == 3, "Incorrect number of rows"
+
 ```
 In this example, we create a SparkSession object using the PySpark testing library. We then create a DataFrame using the spark.createDataFrame method and pass it to the process_data function.
 
