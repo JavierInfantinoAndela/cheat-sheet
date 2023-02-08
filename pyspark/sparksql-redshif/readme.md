@@ -1,3 +1,5 @@
+# SparkSQL
+
 ## Requirements
 - A Redshift cluster with the sales data table
 - PySpark and SparkSQL installed on a machine that has access to the Redshift cluster
@@ -73,3 +75,6 @@ spark.stop()
 3) The sales data is read from Redshift into a PySpark DataFrame. The JDBC URL, Redshift user, and password are specified in the option function.
 4) The data is filtered for the last 15 minutes using the from_unixtime and unix_timestamp functions.
 5) SparkSQL is used to aggregate the
+
+
+# Schedule a Job
