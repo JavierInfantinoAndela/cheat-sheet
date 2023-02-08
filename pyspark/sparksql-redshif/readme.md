@@ -20,7 +20,7 @@ CREATE TABLE processed_sales (
 ## Code
 Here's the code for processing the last 15 minutes of sales data from the Redshift table using PySpark and SparkSQL:
 
-```
+```python
 # Import the necessary modules
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import from_unixtime, unix_timestamp
