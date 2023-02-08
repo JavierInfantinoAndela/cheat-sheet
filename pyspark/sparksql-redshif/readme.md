@@ -157,7 +157,6 @@ Unit testing is essential for PySpark batch jobs, just as it is for any other so
 
 # Questions for the Data Engineering Interviewer :
 
-1. What inspired Teladoc Health to build a data engineering team in Argentina?
 2. What are the primary goals and objectives of the team?
 3. Can you provide some examples of projects that the team has been working on, and how they've utilized your tech stack in those projects?
 4. Can you describe the work culture at Teladoc Health?
