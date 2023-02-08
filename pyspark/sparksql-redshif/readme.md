@@ -126,12 +126,6 @@ Here's an example of how to use the PySpark testing library to test the process_
 from pyspark.sql.types import StructType, StructField, IntegerType
 from pyspark.testing import SparkSession
 
-def test_process_data():
-# Commenting the code
-
-from pyspark.sql.types import StructType, StructField, IntegerType
-from pyspark.testing import SparkSession
-
 # Defining the unit test function for the PySpark process_data() function
 def test_process_data():
     # Creating a Spark session for the unit test
