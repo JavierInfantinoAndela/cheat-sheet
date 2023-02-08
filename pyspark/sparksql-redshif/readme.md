@@ -1,25 +1,26 @@
-Here is a complete documentation on processing the last 15 minutes of sales data from a Redshift table and loading the processed data into another Redshift table using PySpark and SparkSQL:
+## Requirements
+- A Redshift cluster with the sales data table
+- PySpark and SparkSQL installed on a machine that has access to the Redshift cluster
+- The Redshift JDBC driver installed
+- A Redshift table for storing the processed data
+- Preparation
+- Create the Redshift table for storing the processed data. Here's an example of the SQL command to create the table:
 
-Requirements
-A Redshift cluster with the sales data table
-PySpark and SparkSQL installed on a machine that has access to the Redshift cluster
-The Redshift JDBC driver installed
-A Redshift table for storing the processed data
-Preparation
-Create the Redshift table for storing the processed data. Here's an example of the SQL command to create the table:
-sql
-Copy code
+##Preparation
+1) Create the Redshift table for storing the processed data. Here's an example of the SQL command to create the table:
+
+```
 CREATE TABLE processed_sales (
     timestamp timestamp,
     product varchar(255),
     total_sales double precision
 );
-Load the sales data into the Redshift table.
-Code
+```
+
+## Code
 Here's the code for processing the last 15 minutes of sales data from the Redshift table using PySpark and SparkSQL:
 
-python
-Copy code
+```
 # Import the necessary modules
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import from_unixtime, unix_timestamp
@@ -64,9 +65,11 @@ aggregated_df.write \
 
 # Stop the SparkSession
 spark.stop()
-Explanation
-The necessary modules are imported.
-A SparkSession is created.
-The sales data is read from Redshift into a PySpark DataFrame. The JDBC URL, Redshift user, and password are specified in the option function.
-The data is filtered for the last 15 minutes using the from_unixtime and unix_timestamp functions.
-SparkSQL is used to aggregate the
+```
+
+## Explanation
+1) The necessary modules are imported.
+2) A SparkSession is created.
+3) The sales data is read from Redshift into a PySpark DataFrame. The JDBC URL, Redshift user, and password are specified in the option function.
+4) The data is filtered for the last 15 minutes using the from_unixtime and unix_timestamp functions.
+5) SparkSQL is used to aggregate the
