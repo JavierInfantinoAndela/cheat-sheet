@@ -6,7 +6,7 @@
 - Preparation
 - Create the Redshift table for storing the processed data. Here's an example of the SQL command to create the table:
 
-##Preparation
+## Preparation
 1) Create the Redshift table for storing the processed data. Here's an example of the SQL command to create the table:
 
 ```
