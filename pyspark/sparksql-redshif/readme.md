@@ -153,3 +153,16 @@ Finally, we use the assert statement to validate the result of the job. In this 
 
 ## Conclusion
 Unit testing is essential for PySpark batch jobs, just as it is for any other software. By isolating the job logic and using the PySpark testing library, we can write efficient and effective unit tests for PySpark batch jobs.
+
+
+# Questions for the Data Engineering Interviewer :
+
+1. What inspired Teladoc Health to build a data engineering team in Argentina?
+2. What are the primary goals and objectives of the team?
+3. Can you provide some examples of projects that the team has been working on, and how they've utilized your tech stack in those projects?
+4. Can you describe the work culture at Teladoc Health?
+5. How does the team approach data quality their pipeline and database designs?
+6. How does the team collaborate with other stakeholders, such as data analysts and business leaders, to ensure ?
+7. Can you describe the process for continuous integration and delivery (CI/CD) for data engineering projects at Teladoc Health?
+9. Can you tell me about a particularly challenging problem the team has faced, and how they approached it and solved it?
+
