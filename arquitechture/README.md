@@ -72,11 +72,6 @@ What are the data sources for the pipeline, and where are they located?
 - Ad-hoc queries: SQL databases (MySQL, PostgreSQL), query engines (Apache Hive, Presto, AWS Athena), data warehouses (AWS Redshift, Google BigQuery)
 - Predefined reports: BI tools (Tableau, Looker, Power BI, QuickSight), reporting frameworks (JasperReports, BIRT)
 - Real-time insights: Streaming platforms (Apache Kafka, AWS Kinesis, Azure Event Hubs), distributed processing frameworks (Apache Spark, Apache Flink)
-### What are the security and compliance requirements?
-
-- Data encryption: Encryption tools (OpenSSL, GnuPG), key management services (AWS KMS, Google Cloud KMS)
-- Access control: Identity and access management services (AWS IAM, Google Cloud IAM), directory services (LDAP, Active Directory)
-- Compliance: Compliance frameworks (HIPAA, GDPR), auditing and monitoring tools (AWS CloudTrail, AWS Config, Google Cloud Audit Logs)
 
 # Pupular Arquitechtures
 
