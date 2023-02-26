@@ -1,6 +1,6 @@
 ## Data ingestion:
 
-- Massive data: If the project needs to ingest a massive volume of data, components that are designed for high-volume data processing and analysis, such as Apache Kafka or AWS Kinesis, could be a good fit for this requirement.
+- Big data: If the project needs to ingest a massive volume of data, components that are designed for high-volume data processing and analysis, such as Apache Kafka or AWS Kinesis, could be a good fit for this requirement.
 
 - Smaller data: If the project needs to ingest a smaller volume of data, components that support various data sources and formats, such as AWS Glue or Apache NiFi, could be a good fit for this requirement.
 
