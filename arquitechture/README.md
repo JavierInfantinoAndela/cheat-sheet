@@ -56,7 +56,7 @@ What are the data sources for the pipeline, and where are they located?
 - Unstructured data: Distributed file systems (Apache Hadoop, HDFS, AWS EFS), NoSQL databases (MongoDB, Cassandra), object storage (AWS S3, Google Cloud Storage), streaming data (Apache Kafka, AWS Kinesis)
 ### What are the expected data volume, velocity, and variety?
 
-- High volume, high velocity, different microservices: Distributed processing frameworks (Apache Spark, Apache Flink, Apache Beam), streaming data platforms (Apache Kafka, AWS Kinesis, Azure Event Hubs), data ingestion tools (Apache NiFi, AWS Glue)
+- High volume, high velocity, different microservices: Distributed processing frameworks (Apache Spark, Apache Flink), streaming data platforms (Apache Kafka, AWS Kinesis, Apache Pulsar), data ingestion tools (Apache NiFi, AWS Glue)
 - Low volume, high variety, structured data: SQL databases (MySQL, PostgreSQL), Python libraries (Pandas, Numpy)
 
 ### What are the required data storage and retrieval needs, such as real-time or batch querying?
