@@ -22,7 +22,7 @@
 
 - Real-time insights: If the project needs to provide real-time insights, components that are designed for stream processing and analytics, such as Apache Kafka or AWS Kinesis, could be a good fit for this requirement.
 
-- Predefined reports: If the project needs to support predefined reports, components that are designed for business intelligence and analytics, such as Tableau or AWS QuickSight, could be a good fit for this requirement.
+- Predefined reports: If the project needs to support predefined reports, components that are designed for business intelligence and analytics, such as Tableau or Looker, could be a good fit for this requirement.
 
 - Data security and compliance: If the project needs to ensure data security and compliance, components that provide data encryption, access control, and auditing, such as AWS IAM or Apache Ranger, could be a good fit for this requirement.
 
