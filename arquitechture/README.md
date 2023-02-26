@@ -58,11 +58,7 @@ What are the data sources for the pipeline, and where are they located?
 
 - High volume, high velocity, different microservices: Distributed processing frameworks (Apache Spark, Apache Flink, Apache Beam), streaming data platforms (Apache Kafka, AWS Kinesis, Azure Event Hubs), data ingestion tools (Apache NiFi, AWS Glue)
 - Low volume, high variety, structured data: SQL databases (MySQL, PostgreSQL), Python libraries (Pandas, Numpy)
-### What are the required data processing workflows, such as data cleaning, transformation, and aggregation?
 
-- Data cleaning: OpenRefine, Trifacta, Data Wrangler
-- Data transformation: Apache Beam, Apache NiFi, Talend, AWS Glue
-- Data aggregation: Apache Spark, Apache Flink, Apache Hive, SQL databases
 ### What are the required data storage and retrieval needs, such as real-time or batch querying?
 
 - Real-time querying: In-memory databases (Redis, Apache Ignite), search engines (Elasticsearch, AWS Elasticsearch Service), NoSQL databases (MongoDB, Cassandra)
