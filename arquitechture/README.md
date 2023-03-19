@@ -1,6 +1,6 @@
 ## Data ingestion:
 
-- Massive data: If the project needs to ingest a massive volume of data, components that are designed for high-volume data processing and analysis, such as Apache Kafka or AWS Kinesis, could be a good fit for this requirement.
+- Big data: If the project needs to ingest a massive volume of data, components that are designed for high-volume data processing and analysis, such as Apache Kafka or AWS Kinesis, could be a good fit for this requirement.
 
 - Smaller data: If the project needs to ingest a smaller volume of data, components that support various data sources and formats, such as AWS Glue or Apache NiFi, could be a good fit for this requirement.
 
@@ -22,7 +22,7 @@
 
 - Real-time insights: If the project needs to provide real-time insights, components that are designed for stream processing and analytics, such as Apache Kafka or AWS Kinesis, could be a good fit for this requirement.
 
-- Predefined reports: If the project needs to support predefined reports, components that are designed for business intelligence and analytics, such as Tableau or AWS QuickSight, could be a good fit for this requirement.
+- Predefined reports: If the project needs to support predefined reports, components that are designed for business intelligence and analytics, such as Tableau or Looker, could be a good fit for this requirement.
 
 - Data security and compliance: If the project needs to ensure data security and compliance, components that provide data encryption, access control, and auditing, such as AWS IAM or Apache Ranger, could be a good fit for this requirement.
 
@@ -56,13 +56,9 @@ What are the data sources for the pipeline, and where are they located?
 - Unstructured data: Distributed file systems (Apache Hadoop, HDFS, AWS EFS), NoSQL databases (MongoDB, Cassandra), object storage (AWS S3, Google Cloud Storage), streaming data (Apache Kafka, AWS Kinesis)
 ### What are the expected data volume, velocity, and variety?
 
-- High volume, high velocity, different microservices: Distributed processing frameworks (Apache Spark, Apache Flink, Apache Beam), streaming data platforms (Apache Kafka, AWS Kinesis, Azure Event Hubs), data ingestion tools (Apache NiFi, AWS Glue)
+- High volume, high velocity, different microservices: Distributed processing frameworks (Apache Spark, Apache Flink), streaming data platforms (Apache Kafka, AWS Kinesis, Apache Pulsar), data ingestion tools (Apache NiFi, AWS Glue)
 - Low volume, high variety, structured data: SQL databases (MySQL, PostgreSQL), Python libraries (Pandas, Numpy)
-### What are the required data processing workflows, such as data cleaning, transformation, and aggregation?
 
-- Data cleaning: OpenRefine, Trifacta, Data Wrangler
-- Data transformation: Apache Beam, Apache NiFi, Talend, AWS Glue
-- Data aggregation: Apache Spark, Apache Flink, Apache Hive, SQL databases
 ### What are the required data storage and retrieval needs, such as real-time or batch querying?
 
 - Real-time querying: In-memory databases (Redis, Apache Ignite), search engines (Elasticsearch, AWS Elasticsearch Service), NoSQL databases (MongoDB, Cassandra)
@@ -72,11 +68,6 @@ What are the data sources for the pipeline, and where are they located?
 - Ad-hoc queries: SQL databases (MySQL, PostgreSQL), query engines (Apache Hive, Presto, AWS Athena), data warehouses (AWS Redshift, Google BigQuery)
 - Predefined reports: BI tools (Tableau, Looker, Power BI, QuickSight), reporting frameworks (JasperReports, BIRT)
 - Real-time insights: Streaming platforms (Apache Kafka, AWS Kinesis, Azure Event Hubs), distributed processing frameworks (Apache Spark, Apache Flink)
-### What are the security and compliance requirements?
-
-- Data encryption: Encryption tools (OpenSSL, GnuPG), key management services (AWS KMS, Google Cloud KMS)
-- Access control: Identity and access management services (AWS IAM, Google Cloud IAM), directory services (LDAP, Active Directory)
-- Compliance: Compliance frameworks (HIPAA, GDPR), auditing and monitoring tools (AWS CloudTrail, AWS Config, Google Cloud Audit Logs)
 
 # Pupular Arquitechtures
 
