@@ -76,3 +76,43 @@ Cuéntenos sobre una vez que tuvo que aprender rápidamente una nueva tecnologí
 **`Acción`:** Para lograr esto, adapté mi enfoque de comunicación de varias maneras. Primero, evité el uso de jerga técnica y, en cambio, utilicé términos más sencillos y analogías para describir conceptos técnicos. También me centré en resaltar los resultados y el impacto de nuestro trabajo en lugar de detallar todos los aspectos técnicos del proceso. Además, utilicé visualizaciones y gráficos claros para presentar datos e información de manera fácil de entender. Antes de cada presentación, también practicaba explicando los conceptos técnicos a colegas no técnicos para asegurarme de que mi enfoque de comunicación fuera efectivo.
 
 **`Resultado`:** Al adaptar mi enfoque de comunicación y centrarme en hacer que la información técnica fuera accesible y comprensible, logré mantener a los stakeholders no técnicos informados y comprometidos con nuestro trabajo. Esto también ayudó a fomentar una mayor colaboración entre los equipos y a garantizar que todos tuvieran una comprensión clara de los objetivos y resultados del proyecto.
+
+---
+
+### **`Pregunta`:**
+¿Ha tenido alguna experiencia en la que tuvo que adaptarse rápidamente a cambios en un proyecto debido a una confusión con los stakeholders? ¿Cómo manejó la situación y qué aprendió de ella?
+
+**`Situación`:** Mientras trabajaba en ASAPP, nuestro equipo de ingeniería de datos enfrentó un desafío cuando, durante una reunión de revisión de sprint, descubrimos que había una confusión con los stakeholders sobre el tipo de entidad de negocio de un requerimiento. Esto resultó en la necesidad de modificar gran parte del código que ya habíamos desarrollado en las primeras dos semanas del proyecto.
+
+**`Tarea`:** Mi tarea era adaptarme a estos cambios inesperados en el proyecto y garantizar que pudiéramos abordarlos de manera efectiva sin retrasar demasiado el cronograma general.
+
+**`Acción`:** Para manejar esta situación, comencé por reunirme con los stakeholders y mi equipo para comprender completamente la confusión y aclarar los requisitos del proyecto. Luego, trabajé en colaboración con mi equipo para identificar las áreas del código que debían modificarse y desarrollamos un plan de acción para abordar los cambios de manera eficiente. También nos aseguramos de mantener una comunicación abierta y frecuente con los stakeholders para evitar futuras confusiones y garantizar que todos estuvieran alineados con los objetivos del proyecto.
+
+**`Resultado`:** Al abordar rápidamente la confusión y trabajar en estrecha colaboración con mi equipo y los stakeholders, pudimos adaptarnos a los cambios y modificar el código según sea necesario sin retrasar significativamente el cronograma del proyecto. Aprendí la importancia de la comunicación clara y efectiva con los stakeholders y la necesidad de adaptabilidad en el campo de la ingeniería de datos.
+
+---
+
+### **`Pregunta`:**
+¿Puede describir una situación en la que haya tenido que asumir responsabilidades adicionales o un rol de liderazgo en un proyecto? ¿Cómo abordó estas responsabilidades y qué impacto tuvo en el equipo y en el proyecto?
+
+**`Situación`:** Mientras trabajaba en ASAPP, nuestro líder de proyecto de ingeniería de datos tuvo que tomar una licencia inesperada durante un proyecto crítico. El objetivo del proyecto era disponibilizar datos para un cliente en un formato particular que era crítico para ellos. Esto dejó un vacío en la supervisión y dirección del proyecto, lo que podría haber afectado negativamente nuestro progreso.
+
+**`Tarea`:** Mi tarea era asumir responsabilidades adicionales y un rol de liderazgo temporal en el proyecto para garantizar que el equipo pudiera seguir trabajando de manera eficiente y efectiva en la ausencia del líder del proyecto.
+
+**`Acción`:** Para abordar estas responsabilidades adicionales, me comuniqué con mi jefe y los miembros del equipo para informarles sobre el cambio en el liderazgo y discutir las expectativas y responsabilidades. También me aseguré de comprender completamente los requisitos del cliente y de mantener una comunicación clara y abierta con ellos durante todo el proyecto. Organizaba y dirigía reuniones regulares del equipo para discutir el progreso, identificar y resolver problemas, y asignar tareas.
+
+**`Resultado`:** Al asumir el rol de liderazgo temporal y mantener una comunicación abierta y efectiva con el equipo y el cliente, pudimos mantener el progreso del proyecto y cumplir con los requisitos del cliente en el plazo establecido. El equipo trabajó de manera eficiente y efectiva, y el proyecto se completó con éxito.
+
+---
+
+
+### **`Pregunta`:**
+Describa una situación en la que haya tenido que enfrentar presiones o plazos ajustados en un proyecto de ingeniería de datos sin un rol de liderazgo. ¿Cómo manejó el estrés y garantizó la calidad del trabajo entregado?
+
+**`Situación`:** En ASAPP, trabajé en un proyecto de ingeniería de datos en el que tuvimos que ajustar nuestro plan debido a cambios en los requerimientos y un plazo ajustado. El proyecto involucraba la adaptación de un pipeline de datos para satisfacer las necesidades cambiantes de un stakeholder.
+
+**`Tarea`:** Mi tarea era completar mi parte del proyecto de manera eficiente y efectiva, manteniendo la calidad del trabajo y cumpliendo con el plazo ajustado.
+
+**`Acción`:** Para manejar el estrés y garantizar la calidad del trabajo entregado, en primer lugar, me comuniqué con el equipo y el líder del proyecto para obtener una comprensión clara de las prioridades y los cambios en los requerimientos. Luego, adapté mi enfoque de trabajo para enfocarme en las tareas críticas que necesitaba el stakeholder. También colaboré con el equipo para implementar entregas parciales, lo que nos permitió ir cumpliendo con las necesidades del stakeholder y recibir retroalimentación a lo largo del proceso. Aseguré la calidad del trabajo realizando revisiones de código y pruebas exhaustivas. Para manejar el estrés, me centré en completar una tarea a la vez, manteniendo una comunicación abierta con el equipo y tomándome descansos breves y regulares para mantenerme enfocado y productivo.
+
+**`Resultado`:** Al adaptar mi enfoque de trabajo, priorizar las tareas críticas, y colaborar con el equipo en entregas parciales, pudimos cumplir con el plazo ajustado y satisfacer las necesidades cambiantes del stakeholder.
